@@ -1,0 +1,107 @@
+
+
+p {
+    color: #ff00c3;      /* Changes the text color to blue */
+    font-size: 16px;  /* Sets the font size to 16 pixels */
+  }
+
+
+  h1{
+
+  
+    color: blueviolet;
+
+  }
+
+
+    /* Main Header (top of page title) START */
+
+
+    .secondary-header, .main-header {
+        text-align: center;
+        padding: 20px 0;
+      }
+    
+/*makes the top header of page glow up* START*/
+.main-header{
+    font-size: 24px; /* Adjust font size as needed */
+    color:rgb(198, 26, 255); /* Text color */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial text shadow */  
+    animation: glowAnimation 1.5s infinite alternate; /* Animation settings */
+  }
+  
+  @keyframes glowAnimation {
+    0% {
+      text-shadow: 0 0 10px rgb(225, 133, 237);
+    }
+    100% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+    }
+  }
+
+/*makes the top header of page glow up* END/
+
+
+    
+        /* Main Header (top of page title) END */
+    
+
+  .navbar {
+    justify-content: space-between;
+    background-color: #bc05e0; /* Change to your preferred background color */
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  
+.nav-links {
+  display:inline-flex
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+
+
+.nav-links a {
+  color: #fff; /* Change to your preferred text color */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.content {
+  margin-top: 80px; /* Ensure content appears below the fixed navigation bar */
+  padding: 20px;
+}
+
+/* Makes page background black (everything inside the body tag) */
+
+body {
+
+    background-color: black;
+    
+  }
+  
+  a:hover {
+    color: rgb(255, 0, 166); /* Change to the desired hover color on contents in a tag under list  */
+  }
+
+  ul li{
+
+    text-shadow:#f7f6f8 ;
+    color: rgb(246, 246, 248);
+    
+  }
+  
+  
