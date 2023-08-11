@@ -1,1 +1,130 @@
 
+p {
+    color: #ff00c3;      /* Changes the text color to blue */
+    font-size: 20px;  /* Sets the font size to 16 pixels */
+  }
+
+
+  h1{
+
+  
+    color: blueviolet;
+
+  }
+  /* Main Header (top of page title) START */
+
+
+  .secondary-header, .main-header {
+    text-align: center;
+    padding: 0;
+  }
+
+/*makes the top header of page glow up* START*/
+  .main-header{
+    font-size: 24px; /* Adjust font size as needed */
+    color:rgb(198, 26, 255); /* Text color */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial text shadow */  
+    animation: glowAnimation 1.5s infinite alternate; /* Animation settings */
+  }
+/*makes the second nav header of page have background* START*/
+
+  .secondary-header {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    background-image: url("https://i.pinimg.com/originals/bf/4c/8b/bf4c8b2fd25c6a5849347d7a32ad5ecf.gif");
+    background-size: cover; /* Adjust the background sizing */
+    background-repeat: no-repeat;
+  }
+  /*makes the second nav header of page have background* END*/
+  
+  @keyframes glowAnimation {
+    0% {
+      text-shadow: 0 0 10px rgb(108, 202, 243);
+    }
+    100% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+    }
+  }
+
+/*makes the top header of page glow up* END/
+
+    /* Main Header (top of page title) END */
+
+
+  .navbar {
+    font-size: 20px;
+
+  
+    justify-content: space-between;
+    background-color: #bc05e0; /* Change to your preferred background color */
+  /*makes nav bar have star background START*/
+
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    background-image: url("https://i.pinimg.com/originals/bf/4c/8b/bf4c8b2fd25c6a5849347d7a32ad5ecf.gif");
+    background-size: cover; /* Adjust the background sizing */
+    background-repeat: no-repeat;
+
+  /*makes nav bar have star background END*/
+
+
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+
+  
+.nav-links {
+  display:inline-flex
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+
+
+.nav-links a {
+  color: #fff; /* Change to your preferred text color */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.content {
+  margin-top: 80px; /* Ensure content appears below the fixed navigation bar */
+  padding: 20px;
+}
+
+/* Makes page background black (everything inside the body tag) */
+
+body {
+
+  background-color: black;
+  
+}
+
+a:hover {
+  color: rgb(255, 0, 166); /* Change to the desired hover color on contents in a tag under list  */
+}
+
+/*  makes box around entire page so its not too big to view */
+
+.border-container {
+  border: 2px solid black; /* Change the width and color as needed */
+  padding: 20px; /* Add some padding to separate the border from the content */
+  ;background-color: hsl(0, 0%, 1%);
+}
+
+
