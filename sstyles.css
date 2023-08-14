@@ -1,3 +1,19 @@
+/* Default styles */
+code {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  code {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}    
+
+
+
 
 
 
