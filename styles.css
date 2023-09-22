@@ -145,7 +145,7 @@ a:hover {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 200px); /* Adjust the number of columns and box width as needed */
-    gap: 20px; /* Adjust the gap between boxes as needed */
+    gap: 60px; /* Adjust the gap between boxes as needed */
 }
 .box {
     width: 200px; /* Adjust the box width as needed */
