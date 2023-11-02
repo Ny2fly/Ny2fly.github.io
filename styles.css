@@ -10,6 +10,9 @@
     align-items: center; /* Center the content vertically */
     border: 1px solid #000; /* Add a border for visualization */
     color: white;
+     border-collapse: collapse; /* This is important to merge adjacent cell borders */
+    width: 100%;
+    border: 2px solid red; /* Change the border color and thickness */
 }
 
 
