@@ -16,9 +16,7 @@
 }
 
 td,tr,th,{ 
-    
-/* Apply styles to table data cells (td) */
-.bordered-table td {
+    /* Apply styles to table data cells (td) */
     border: 1px solid #000; /* Default data cell border style */
     padding: 8px;
     text-align: left;
