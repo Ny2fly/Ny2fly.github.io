@@ -15,11 +15,11 @@
     border: 2px solid red; /* Change the border color and thickness */
 }
 
-td,tr,th,{ 
-    /* Apply styles to table data cells (td) */
-    border: 1px solid #000; /* Default data cell border style */
+table,th,tr{ 
+    border: 4px solid #200; 
     padding: 8px;
     text-align: left;
+    color: white;
 }
 
 
