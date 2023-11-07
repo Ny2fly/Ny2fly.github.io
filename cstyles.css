@@ -1,5 +1,13 @@
 
 
+
+
+
+.button{
+     color: green;
+}
+
+-------------------------------------------------------------------------
 p {
     color: #ff00c3;      /* Changes the text color to blue */
     font-size: 16px;  /* Sets the font size to 16 pixels */
@@ -20,7 +28,8 @@ p {
     .secondary-header, .main-header {
         text-align: center;
         padding: 20px 0;
-      }
+
+}
     
 /*makes the top header of page glow up* START*/
 .main-header{
