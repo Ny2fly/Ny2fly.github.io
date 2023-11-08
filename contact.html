@@ -13,18 +13,33 @@
 
 
     <style type="text/css">
+         body {
+            margin: 0;
+            padding: 0;
+        }
     #mc_embed_signup {
         background: #b003fd; /* Change this background color to purple */
         clear: left;
         font: 14px Helvetica, Arial, sans-serif;
         width: 600px;
     }
+          #form-container {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #b003fd; /* Background color */
+            font: 14px Helvetica, Arial, sans-serif;
+            width: 600px;
+        }
         #mc_embed_signup label {
         color: pink;
         }
     /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
+        <div id="form-container">
+
     <div id="mc_embed_signup">
         <!--
   <style type="text/css">
