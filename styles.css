@@ -1,5 +1,15 @@
 /* Default styles */
 
+
+.page-container {
+    background-color: white;
+    padding: 20px; /* Add padding as needed */
+}
+
+/* Add any additional styles for your content-container and other elements */
+
+
+
 .centered-div {
     width: 300px; /* Set a width for the div */
     height: 200px; /* Set a height for the div */
