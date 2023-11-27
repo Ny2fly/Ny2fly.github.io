@@ -1,6 +1,32 @@
 /* Default styles */
 
 
+
+.ceo-image {
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+------------------------------------------
+
+/* Your existing CSS */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    padding: 10px;
+}
+
+.ceo-image {
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+-------------------------------------------------
+
+
+
 .page-container {
     background-color: black;
     padding: 20px; /* Add padding as needed */
